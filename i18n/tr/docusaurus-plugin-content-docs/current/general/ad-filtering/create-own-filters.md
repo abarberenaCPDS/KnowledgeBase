@@ -15,7 +15,7 @@ To describe the syntax of our filtering rules, we use [Augmented BNF for Syntax 
 
 Any line that starts with an exclamation mark is a comment. In the list of rules it is displayed in gray color. AdGuard will ignore this line, so you can write anything you want. Comments are usually placed above the rules and used to describe what a rule does.
 
-For example:
+Örneğin:
 
 ```
 ! This is the comment. Under this line there is an actual filtering rule.
@@ -2537,7 +2537,7 @@ Specifies the maximum length for content of HTML element. If this parameter is s
 > 
 > If this parameter is not specified, the `max-length` is considered to be 8192.
 
-For example:
+Örneğin:
 ```
 $$div[tag-content="banner"][max-length="400"]
 ```
@@ -2547,7 +2547,7 @@ This rule will remove all the `div` elements, whose code contains the substring 
 
 Specifies the minimum length for content of HTML element. If this parameter is set and the content length is less than preset value, a rule does not apply to the element.
 
-For example:
+Örneğin:
 ```
 $$div[tag-content="banner"][min-length="400"]
 ```

@@ -220,7 +220,7 @@ While some ot the features in AdGuard for Android are free, others require [purc
 * Ad blocking in all apps (not only browsers)
 * Custom filters
 
-Read [this article](./general/license/activation) to learn how to activate the license key.
+Lisans anahtarının nasıl etkinleştirileceğini öğrenmek için <[bu makaleyi](/general/license/activation) okuyun.
 
 ## Other features
 
